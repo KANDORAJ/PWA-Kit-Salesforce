@@ -47,7 +47,7 @@ const Youtube = loadable(() => import('./pages/youtube'), {fallback})
 const ProductScrollerPage = loadable(() => import('./pages/product-scroller'), {fallback})
 const RadioButtons = loadable(() => import('./pages/radio'), {fallback})
 const Calculator = loadable(() => import('./pages/calculator'), {fallback})
-const Weather = loadable(() => import('./pages/weather'), {fallback})
+const Weather = loadable(() => import('./pages/weather'), {fallback}) //Added
 const PageNotFound = loadable(() => import('./pages/page-not-found'))
 
 export const routes = [
@@ -127,7 +127,7 @@ export const routes = [
         component: Calculator
     },
     {
-        path: '/weather',
+        path: '/weather',  //Added path
         component: Weather
     },
     {
