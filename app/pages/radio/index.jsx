@@ -3,12 +3,6 @@ import { Box } from '@chakra-ui/react'
 
 /**
  * Renders a group of radio buttons with a selected value state.
- * @param {Object} _props - The props object.
- * @returns {JSX.Element} - The RadioButtons component.
-
-function RadioButtons(_props) {
-    // function body
-}
  */
 
 function RadioButtons(_props) {
