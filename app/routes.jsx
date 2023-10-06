@@ -45,7 +45,7 @@ const Wishlist = loadable(() => import('./pages/account/wishlist'), {
 })
 const Youtube = loadable(() => import('./pages/youtube'), {fallback})
 const ProductScrollerPage = loadable(() => import('./pages/product-scroller'), {fallback})
-const RadioButtons = loadable(() => import('./pages/radio'), {fallback})
+const RadioButtons = loadable(() => import('./pages/radio'), {fallback}) // Added Radio 
 const PageNotFound = loadable(() => import('./pages/page-not-found'))
 
 export const routes = [
@@ -117,7 +117,7 @@ export const routes = [
         component: ProductScrollerPage
     },
     {
-        path: '/radio-buttons',
+        path: '/radio-buttons',   // Path added
         component: RadioButtons
     },
     {
