@@ -45,7 +45,6 @@ const {handler} = runtime.createHandler(options, (app) => {
                     'script-src': ["'self'", "'unsafe-eval'", 'storage.googleapis.com'],
                     'connect-src': ["'self'", 'api.cquotient.com', 'api.openweathermap.org'], // added api.openweathermap.org for weather widget
                     'frame-src': ["'self'", 'https://www.youtube.com'],
-                    'defoult-src': ["'self'", 'https://api.openweathermap.org/'], // added api.openweathermap.org for weather widget
 
                     // Do not upgrade insecure requests for local development
                     'upgrade-insecure-requests': isRemote() ? [] : null
